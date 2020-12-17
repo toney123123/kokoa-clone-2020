@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends - Kokoa Clone</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,18 +25,24 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
-        <p class="welcome-header__text">IF you have a KoKoa Account, log in with your email or phone number.</p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password"/>
-        <input type="submit" value="Log In"/>
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
-
+    <nav class="nav"> 
+      <ul class="nav__list">    
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#">
+                <span class="nav__notification">1</span><i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><div class="nav__dot"></div><i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+        </li>
+      </ul>    
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
